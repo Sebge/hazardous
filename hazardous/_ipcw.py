@@ -4,7 +4,7 @@ from scipy.interpolate import interp1d
 from sklearn.base import clone
 from sklearn.ensemble import HistGradientBoostingClassifier
 from sklearn.utils.validation import check_is_fitted
-from sklarn.base import BaseEstimator
+from sklearn.base import BaseEstimator
 
 from .utils import check_y_survival
 
